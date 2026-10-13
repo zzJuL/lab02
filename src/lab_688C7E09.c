@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-int unsiged_char_max()
+int unsigned_char_max()
 {
     // TODO: write your code here
     return UCHAR_MAX;
@@ -61,7 +61,7 @@ int main(void)
 {
     printf("#################### CHAR #####################\n");
     printf("Number of bits in char: %d\n", CHAR_BIT);
-    printf("unsigned char max: %d\n", unsiged_char_max());
+    printf("unsigned char max: %d\n", unsigned_char_max());
     printf("signed char min: %d\n", signed_char_min());
     printf("signed char max: %d\n", signed_char_max());
     printf("\n");
